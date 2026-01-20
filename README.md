@@ -2,6 +2,7 @@
 
 Sistem de management al depozitului dezvoltat în PHP 8.2 / Symfony 7.2.
 
+
 ## Cerințe
 
 - PHP 8.2+
