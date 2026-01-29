@@ -78,7 +78,7 @@ src/
 - `POST /api/barcode/scan` - Scanare cod de bare
 - `POST /api/barcode/batch-scan` - Scanare în lot
 - `POST /api/barcode/validate` - Validare cod de bare
-- `POST /api/barcode/goods-receipt/{id}/items/{itemId}/scan` - Scanare la recepție
+- `POST /api/barcode/goods-receipt/{id}/items/{itemId}/scan` - Scanare la receptie
 
 ### Stock Allocation (Alocare stoc)
 - `POST /api/stock-allocation/allocate` - Alocare automată
