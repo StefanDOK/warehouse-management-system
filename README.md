@@ -15,6 +15,7 @@ Sistem de management al depozitului dezvoltat în PHP 8.2 / Symfony 7.2.
 composer install
 php bin/console doctrine:database:create
 php bin/console doctrine:schema:create
+php bin/console doctrine:database:migrate
 ```
 
 ## Pornire server de dezvoltare
