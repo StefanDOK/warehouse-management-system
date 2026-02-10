@@ -61,6 +61,7 @@ class BarcodeScannerService
         if ($newReceived >= $expected) {
             $status = 'complete';
         }
+        
         if ($newReceived > $expected) {
             $status = 'over_received';
         }
