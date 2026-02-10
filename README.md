@@ -22,7 +22,7 @@ php bin/console doctrine:database:migrate
 
 ```bash
 symfony server:start
-# sau
+# or
 php -S localhost:8000 -t public
 ```
 
@@ -45,7 +45,7 @@ php -S localhost:8000 -t public
 
 ```
 src/
-├── Controller/          # Controllere HTTP (API endpoints)
+├── Controller/          # Controllers HTTP (API endpoints)
 │   ├── AlertController.php
 │   ├── BarcodeScanController.php
 │   ├── ErpIntegrationController.php
